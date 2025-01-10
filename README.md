@@ -69,5 +69,6 @@ Thank you for contributing! 🎉
 ## ⭐️ Acknowledgements
 A very big thanks to all the contributors for helping this project grow!
 
+
 [![Contributors](https://contrib.rocks/preview?repo=CowTheGreat%2FReal-Time-Audio-Recorder-and-Transcriber-using-Whisper-AI)](https://github.com/CowTheGreat/Real-Time-Audio-Recorder-and-Transcriber-using-Whisper-AI/graphs/contributors)
 
