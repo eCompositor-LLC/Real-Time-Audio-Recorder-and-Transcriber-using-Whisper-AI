@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "real-time-audio-recorder-and-transcriber"
+version = "0.1.0"
+description = "Real-Time Audio Recorder and Transcriber using Whisper AI"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tk = "*"
+openai-whisper = "*"
+numpy = "<2"
+torch = "*"
+pyaudio = "*"
+ttkbootstrap = "*"
+librosa = "*"
+transformers = "*"
+soundfile = "*"
+torchaudio = "*"
+torchvision = "*"
+google-generativeai = "0.3.2"
+python-dotenv = "1.0.0"
+nltk = "3.8.1"
+spacy = "3.7.2"
+tkinterdnd2 = "*"
+matplotlib = "*"
+seaborn = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "ui:main"
